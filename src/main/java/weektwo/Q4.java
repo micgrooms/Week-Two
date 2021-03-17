@@ -2,14 +2,17 @@ package weektwo;
 
 public class Q4 {
     public static void main(String[] args) {
-        int x;
-        for (x = 0; x <= 5; x--) {
+
+        for (int x = 10; x >= 1; x--) {
+            if (x == 5){
+                continue;
+            }
             System.out.println(x);
         }
+        int x = 0;
 
-        x++;
         while (x<= 3){
-            System.out.println(x);
+            System.out.println(x++);
         }
 
 
